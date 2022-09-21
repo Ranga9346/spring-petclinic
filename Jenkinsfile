@@ -3,7 +3,7 @@ pipeline {
     
     environment {
     imagename = "Ranga9346/spring-petclinics"
-    registryCredential = 'Dockerhubid'
+    registryCredential = 'mycredentials'
     dockerImage = ''
   }
     agent any
